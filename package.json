@@ -23,11 +23,13 @@
     },
     "./native": {
       "require": "./dist/native.js",
-      "import": "./dist/native.mjs"
+      "import": "./dist/native.mjs",
+      "types": "./dist/native.d.ts"
     },
     "./web": {
       "require": "./dist/web.js",
-      "import": "./dist/web.mjs"
+      "import": "./dist/web.mjs",
+      "types": "./dist/web.d.ts"
     }
   },
   "repository": {
