@@ -1,1 +1,0 @@
-export { i as FontWeightNum, F as FontWeightToName, j as FontWeightVar, k as ShadowDefinition, S as ShadowName, l as ShadowOutput, T as TypographyDefinition, f as getElevation, g as getFontFromWeight, b as getFontSizes, c as getFontWeights, a as getFonts, e as getLetterSpacings, d as getLineHeights, h as getShadows } from './native-93af1866.js';

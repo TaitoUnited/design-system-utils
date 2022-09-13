@@ -16,23 +16,6 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    },
-    "./native": {
-      "require": "./dist/native.js",
-      "import": "./dist/native.mjs",
-      "types": "./dist/native.d.ts"
-    },
-    "./web": {
-      "require": "./dist/web.js",
-      "import": "./dist/web.mjs",
-      "types": "./dist/web.d.ts"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TaitoUnited/design-system-utils.git"
@@ -49,11 +32,9 @@
   "homepage": "https://github.com/TaitoUnited/design-system-utils#readme",
   "tsup": {
     "entry": [
-      "src/index.ts",
-      "src/native.ts",
-      "src/web.ts"
+      "src/index.ts"
     ],
-    "splitting": true,
+    "splitting": false,
     "sourcemap": true,
     "clean": true,
     "dts": true,
